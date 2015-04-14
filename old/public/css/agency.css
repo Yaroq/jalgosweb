@@ -6,11 +6,9 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-strong {
-    color: #000
-}
+
 .text-muted {
     color: #777;
 }
@@ -20,7 +18,7 @@ strong {
 }
 
 p {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.75;
 }
 
@@ -173,7 +171,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #EEE;
+    background-color: #222;
 }
 
 .navbar-default .navbar-brand {
@@ -211,10 +209,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 200;
-    font-size: 10px;
-    letter-spacing: 0.3px;
-    color: #bbb;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
 }
 
 .navbar-default .nav li a:hover,
@@ -225,21 +222,21 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #208869;
-    background-color: #fff;
+    color: #fff;
+    background-color: #208869;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #1A6D54;
-    background-color: #fff;
+    color: #fff;
+    background-color: #1A6D54;
 }
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 10px 0;
+        padding: 25px 0;
         border: 0;
-        background-color: #FFF;
+        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -257,8 +254,8 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 3px 0;
-        background-color: #FFF;
+        padding: 10px 0;
+        background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -280,8 +277,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
@@ -296,21 +293,21 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 50px;
+    font-weight: 700;
     line-height: 50px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 300px;
+        padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 25px;
+        font-size: 40px;
         font-style: italic;
         line-height: 40px;
     }
@@ -319,9 +316,9 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 50px;
-        font-weight: 400;
-        line-height: 55px;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
     }
 }
 
@@ -851,12 +848,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #ccc;
+    background: #208869;
 }
 
 ::selection {
     text-shadow: none;
-    background: #ccc;
+    background: #208869;
 }
 
 img::selection {
