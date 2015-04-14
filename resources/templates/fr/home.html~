@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 
@@ -56,20 +56,20 @@
                         <a href="#page-top"></a>
                     </li>
 		    <li>
-                        <a class="page-scroll" href="#DNA">Our vision</a>
+                        <a class="page-scroll" href="#DNA">Notre vision</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Offers</a>
+                        <a class="page-scroll" href="#services">Offres</a>
                     </li>
 		    <li>
-                        <a class="page-scroll" href="#team">About us</a>
+                        <a class="page-scroll" href="#team">A propos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Examples</a>
+                        <a class="page-scroll" href="#portfolio">Exemples</a>
                     </li>
-                    <li>
-                        <a href="/fr"><img src="img/fr.jpg"></div></a>
-                    </li>
+                   <!-- <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>-->
                     <!--<li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>-->
@@ -84,8 +84,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">We build algorithms</div>
-                <div class="intro-lead-in">High-end, tailor-made algorithms to make the most of your data</div>
+                <div class="intro-heading">Constructeurs d'algorithmes</div>
+                <div class="intro-lead-in">Tirez profit de vos données grâce à nos algorithmes haut-de-gamme et sur-mesure</div>
                 <a href="#DNA" class="page-scroll"><button type="submit" class="btn btn-x1">Learn More</button></a>
 		<div></br></br></br></br></div>
 		<div class="intro-lead-in" style="font-style: normal">To contact us: julien @ jalgos.com</div>
@@ -178,7 +178,7 @@
                     </span>
                     <h4 class="service-heading">Audit and Strategy</h4>
 		    <div class="text-muted text-left">
-                    <p class="text-muted text-left">We assess your current data capabilities, bring out the value hidden in your data and work with you to articulate a data strategy and accompany your transformation.
+                    <p class="text-muted text-left">We assess your current data capabilities and work with you to articulate a data strategy and accompany your transformation.
 		      <ul>
 			<li>Data maturity assessment</li>
 			<li>Exploratory analysis</li>
