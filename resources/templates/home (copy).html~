@@ -63,7 +63,7 @@
                         <a href="/">Home</a>
                     </li>
 		    <li>
-                        <a href="/usecases">Use cases</a>
+                        <a href="/use">Use cases</a>
                     </li>
                     <li>
                         <a href="/about">About</a>
@@ -89,43 +89,31 @@
 
     <!-- Header -->
     <header>
-      <div class="container">
-        <div class="intro-text">
-	  <div><img src="img/jalgos_white.png"></div>
-	  <div></br></br></div>
-          <div class="intro-heading">Data Science Agency</div>
-          <div class="intro-lead-in">Consulting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transformation</div>
-          <!--<a href="#DNA" class="page-scroll"><button type="submit" class="btn btn-x1">Learn More</button></a>
-	      <!--<div class="intro-lead-in" style="font-style: normal">To contact us: julien @ jalgos.com</div>-->
+        <div class="container">
+            <div class="intro-text">
+	      <div><img src="img/jalgos_white.png"></div>
+	      <div></br></br></div>
+                <div class="intro-heading">The Data Factory</div>
+                <div class="intro-lead-in">Consulting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transformation</div>
+               <!--<a href="#DNA" class="page-scroll"><button type="submit" class="btn btn-x1">Learn More</button></a>
+		<!--<div class="intro-lead-in" style="font-style: normal">To contact us: julien @ jalgos.com</div>-->
+            </div>
         </div>
-	<span class="fa-stack fa-2x">
-         <a class="page-scroll" href="#intro"> <i class="fa fa-chevron-down fa-stack-1x fa-inverse"></i></a>
-        </span>
-      </div>
     </header>
-    
+
  <!-- Intro -->
-        <div class="container" id="intro">
-	  <div></br></br></br></br></br></br></div>
+        <div class="container">
+	  <div></br></br></br></div>
             <div class="row">
 	      <div class="col-md-1"></div>
               <div class="col-md-10 text-center">
-                 <h4 class="text-left">Data is the new fuel of business and innovation. It has become essential in every industry to smartly integrate the titanic volumes generated and to master the art of transforming them into actionable insights and value.</br></br>
-We are expert in extracting value from data.
-</br></br>Jalgos helps companies <span class="text-muted"><u>define their data collection and management strategy</u></span>, then <span class="text-muted"><u>designs tailored algorithms to optimise the performance of their digital assets</u></span>, and finally <span class="text-muted"><u>accompanies their teams towards data literacy</u></span> for a complete data transformation.
+                 <h4 class="text-left">Data is the new fuel of business and innovation. It has become essential in every industry to smartly integrate the titanic volumes generated and to master the art of transforming them into actionable insights and value.
+</br>Jalgos helps you <span class="text-muted"><u>define your data collection and management strategy</u></span>, then <span class="text-muted"><u>designs tailored algorithms to optimise the performance of your digital assets</u></span>, and finally <span class="text-muted"><u>accompanies your teams towards data literacy</u></span> for a complete data transformation.
 		 </h4>
               </div>
 	      <div class="col-md-1"></div>
 	    </div>
-	    <div></br></br></br></br></br></br></div>
-	    <div class="row">
-	      <div class="col-lg-12 text-center">
-		<span class="fa-stack fa-2x">
-		  <a class="page-scroll" href="#advisory"> <i class="fa fa-chevron-down fa-stack-1x"></i></a>
-		</span>
-	      </div>
-	    </div>
-	    
+
 
     <!-- Advisory Section -->
     <section id="advisory">
@@ -145,7 +133,7 @@ We are expert in extracting value from data.
                   <i class="fa fa-circle fa-stack-2x text-primary"></i>
                   <i class="fa fa-diamond fa-stack-1x fa-inverse"></i>
                 </span>
-                <div class="text-muted text-left"><p>We perform exploratory analysis of your data coupled with a thorough audit of data capabilities and data-related business opportunities to <strong>identify and evaluate the potential value of future data projects</strong>.
+                <div class="text-muted text-left"><p>We perform exploratory analysis of your data coupled with a thorough audit of your data capabilities and data-related business opportunities to <strong>identify and evaluate the potential value of your future data projects</strong>.
 		    
 		  </p>
 		</div>
@@ -158,7 +146,7 @@ We are expert in extracting value from data.
                         <i class="fa fa-eye fa-stack-1x fa-inverse"></i>
                     </span>
 		    <div class="text-muted text-left">
-                    <p class="text-muted text-left">Based on our value assessment and the business goals and constraints, we articulate recommendations as <strong>how to conduct the data transformation</strong> of our clients, whether globally or in a sub-part of their activity. 
+                    <p class="text-muted text-left">Based on our value assessment and your business goals and constraints, we articulate recommendations as <strong>how to conduct your data transformation</strong>, whether globally or in a sub-part of your activity. 
 		     
                     </p>
 		    </div>
@@ -171,21 +159,13 @@ We are expert in extracting value from data.
                         <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                     </span>
 		    <div class="text-muted text-left">
-		      <p class="text-muted text-left">We provide expertise and advice on which <strong>DMP architecture and big data technologies</strong> should be implemented to optimise the efficiency, robustness and reliability of the company's data.
+		      <p class="text-muted text-left">We provide expertise and advice on which <strong>DMP architecture and big data technologies</strong> should be implemented to optimise the efficiency, robustness and reliability of your data.
 		
                       </p>
                
                     </div>
 		</div>
-            </div>
-	    <div></br></br></br></div>
-	    <div class="row">
-	      <div class="col-lg-12 text-center">
-		<span class="fa-stack fa-2x">
-		  <a class="page-scroll" href="#solutions"> <i class="fa fa-chevron-down fa-stack-1x"></i></a>
-		</span>
-	      </div>
-	    </div>  
+            </div>  
         </div>
     </section>
 
@@ -207,7 +187,7 @@ We are expert in extracting value from data.
                   <i class="fa fa-circle fa-stack-2x text-primary"></i>
                   <i class="fa fa-tint fa-stack-1x fa-inverse"></i>
                 </span>
-                <div class="text-muted text-left"><p><strong>We identify and harvest the data relevent to our clients' business</strong>, from both owned digital assets and external sources, with tracking, archiving and scraping solutions adapted to the activity's constraints.
+                <div class="text-muted text-left"><p><strong>We identify and harvest the data relevent to your business</strong>, from both owned digital assets and external sources, with tracking, archiving and scraping solutions adapted to your needs.
 		    
 		  </p>
 		</div>
@@ -221,7 +201,7 @@ We are expert in extracting value from data.
                         <i class="fa fa-skyatlas fa-stack-1x fa-inverse"></i>
                     </span>
 		    <div class="text-muted text-left">
-                    <p class="text-muted text-left">At the core of our offers, R&D missions to design, develop and implement the perfect fit technology to achieve goals is Jalgos historical activity. We have been creating <strong>innovative solutions that constitute the basis of the digital activities</strong> of our clients.		     
+                    <p class="text-muted text-left">R&D missions to design, develop and implement the perfect fit technology to reach your goals is Jalgos historical activity. We have been creating <strong>innovative solutions that constitute the basis of many companies' digital assets</strong>.		     
                     </p>
 		    </div>
                   </div>
@@ -233,21 +213,13 @@ We are expert in extracting value from data.
                         <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
                     </span>
 		    <div class="text-muted text-left">
-		      <p class="text-muted text-left">We select and deploy the relevent <strong>big data, data visualization and analytics technologies</strong> that help  make the best of digital assets.     
+		      <p class="text-muted text-left">We select and deploy the relevent <strong>big data, data visualization and analytics technologies</strong> that will help you make the best of your digital assets.     
 			
                       </p>
                
                     </div>
 		</div>
-            </div>
-	    <div></br></br></br></div>
-	    <div class="row">
-	      <div class="col-lg-12 text-center">
-		<span class="fa-stack fa-2x">
-		  <a class="page-scroll" href="#transformation"> <i class="fa fa-chevron-down fa-stack-1x"></i></a>
-		</span>
-	      </div>
-	    </div>    
+            </div>  
         </div>
     </section>
 
@@ -274,7 +246,7 @@ We are expert in extracting value from data.
                     </span>
 		    <div class="text-muted text-left">
                     <p class="text-muted text-left">
-		      Our "data science for managers" training <strong>brings data literacy to managers and teams</strong>, a strong prerequisite to successfully integrate data in our clients' businesses. Jalgos helps you <strong>hire and build an internal team of data scientists</strong> to deepen the data maturity of your company.
+		      Our "data science for managers" training <strong>brings data literacy to your managers and teams</strong>, a strong prerequisite to successfully integrate data in your business. Jalgos helps you <strong>hire and build an internal team of data scientists</strong> to deepen the data maturity of your company.
                     </p>
 		    </div>
                   </div>
@@ -296,15 +268,7 @@ We are expert in extracting value from data.
                 <div class="col-md-1">
                   
 		</div>
-            </div> 
-	    <div></br></br></br></div>
-	    <div class="row">
-	      <div class="col-lg-12 text-center">
-		<span class="fa-stack fa-2x">
-		  <a class="page-scroll" href="#page-top"> <i class="fa fa-angle-double-up fa-stack-1x"></i></a>
-		</span>
-	      </div>
-	    </div>    
+            </div>  
         </div>
     </section>
 

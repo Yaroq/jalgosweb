@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jalgos, Data Science</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"></a>
+            </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                  <li>
+                    <a href="/"><img src="img/jalgosteenlight.jpg"></a>
+		  </li>
+                </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+		    <li>
+                        <a href="/">Home</a>
+                    </li>
+		    <li>
+                        <a href="/usecases">Use cases</a>
+                    </li>
+                    <li>
+                        <a href="/about">About</a>
+                    </li>
+		    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="/fr"><img src="img/fr.jpg"></a>
+		    </li>
+		    <li>
+			<a href="/"><img src="img/en.jpg"></a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+	      <div><img src="img/jalgos_white.png"></div>
+	      <div></br></br></div>
+                <div class="intro-heading">Data Science Agency</div>
+                <div class="intro-lead-in">Consulting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transformation</div>
+               <!--<a href="#DNA" class="page-scroll"><button type="submit" class="btn btn-x1">Learn More</button></a>
+		<!--<div class="intro-lead-in" style="font-style: normal">To contact us: julien @ jalgos.com</div>-->
+            </div>
+        </div>
+    </header>
+
+
+ <!-- Use cases Section -->
+    <section id="usecases">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Use Cases</h2>
+                </div>
+            </div>
+	   
+	    </br></br>
+
+	    <div class="row text-center" "portfolio-item">
+	      <div class="col-md-1"></div>
+              <div class="col-md-10 panel panel-default">
+		<h3 class="service-heading">Marketing and customer management</h3>
+              </div>
+	      <div class="col-md-1"></div>
+	    </div>
+	    <div class="row text-center" "portfolio-item">
+	      <div class="col-md-1"></div>
+	      <div class="col-md-5">
+		<div class="text-muted text-left"><strong>Segmentation</strong> dynamique et fine du portefeuille de clients, utilisateurs ou prospects, identification des profils à haute LTV.</br>
+		  Gestion du <strong>churn</strong> et campagnes ciblées.</br>
+		  <strong>Up-seeling et cross -selling</strong></br>
+		  <strong>Optimization</strong> of channels, adword campaigns, 
+		  
+		    
+		  </p>
+		</div>
+              </div>
+	      <div class="col-md-5">
+		<div class="text-muted text-left"><p>We perform exploratory analysis of your data coupled with a thorough audit of data capabilities and data-related business opportunities to <strong>identify and evaluate the potential value of future data projects</strong>.
+		    
+		  </p>
+		</div>
+              </div>
+	      <div class="col-md-1"></div>
+	      
+	      <div></br></br></br></div>
+	      <div class="row">
+		<div class="col-lg-12 text-center">
+		  <span class="fa-stack fa-2x">
+		    <a class="page-scroll" href="#solutions"> <i class="fa fa-chevron-down fa-stack-1x"></i></a>
+		  </span>
+		</div>
+	      </div>  
+            </div>
+    </section>
+    
+    
+
+<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Use cases</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-sm-4 portfolio-item">
+                   
+		    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <em>Predictive analytics, optimization</em>
+                            </div>
+                        </div>
+                        <img src="img/about/1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <em><strong>Finance (CFO)</strong></em>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/about/2.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                      <em><strong>Market finance</strong></em>
+
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/about/3.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                      <em><strong>Marketing</strong></em>
+
+                    </div>
+                </div>
+           	<div class="col-md-2 col-sm-4 portfolio-item">
+                  <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                      </div>
+                    </div>
+                    <img src="img/about/4.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Sales success</strong></em>
+                  </div>
+                </div>
+
+		<div class="col-md-2 col-sm-4 portfolio-item">
+                  <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                      </div>
+                    </div>
+                    <img src="img/about/4.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Human resources</strong></em>
+                  </div>
+                </div>
+		<div class="col-md-2 col-sm-4 portfolio-item">
+                  <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                      </div>
+                    </div>
+                    <img src="img/about/4.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Risk management</strong></em>
+                  </div>
+                </div>
+		<div class="col-md-2 col-sm-4 portfolio-item">
+                  <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                      </div>
+                    </div>
+                    <img src="img/about/4.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Fraud and anomaly detection</strong></em>
+                  </div>
+                </div>
+
+		<div class="col-md-2 col-sm-4 portfolio-item">
+                  <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                      </div>
+                    </div>
+                    <img src="img/about/4.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Logisitics</strong></em>
+                  </div>
+                </div>
+
+
+	    </div>
+	    
+	    <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h3 class="section-heading">By verticals</h3>
+                  <h3 class="section-subheading text-muted"></h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2 col-sm-4 portfolio-item">
+                  
+		  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <em>Predictive analytics, optimization</em>
+                      </div>
+                    </div>
+                    <img src="img/about/1.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Retail</strong></em>
+                  </div>
+                </div>
+		
+		
+		<div class="col-md-2 col-sm-4 portfolio-item">
+                  
+		  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <em>Predictive analytics, optimization</em>
+                      </div>
+                    </div>
+                    <img src="img/about/1.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Insurance</strong></em>
+                  </div>
+                </div>
+		
+		<div class="col-md-2 col-sm-4 portfolio-item">
+                  
+		  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <em>Predictive analytics, optimization</em>
+                      </div>
+                    </div>
+                    <img src="img/about/1.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Construction</strong></em>
+                  </div>
+                </div>
+		
+		<div class="col-md-2 col-sm-4 portfolio-item">
+                  
+		  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <em>Predictive analytics, optimization</em>
+                      </div>
+                    </div>
+                    <img src="img/about/1.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Healthcare</strong></em>
+                  </div>
+		</div>
+		
+		<div class="col-md-2 col-sm-4 portfolio-item">
+                  
+		  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <em>Predictive analytics, optimization</em>
+                      </div>
+                    </div>
+                    <img src="img/about/1.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Politics</strong></em>
+                  </div>
+                </div>
+		<div class="col-md-2 col-sm-4 portfolio-item">
+                  
+		  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <em>Predictive analytics, optimization</em>
+                      </div>
+                    </div>
+                    <img src="img/about/1.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Construction and city planning</strong></em>
+                  </div>
+                </div>	<div class="col-md-2 col-sm-4 portfolio-item">
+                  
+		  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <em>Predictive analytics, optimization</em>
+                      </div>
+                    </div>
+                    <img src="img/about/1.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Agriculture</strong></em>
+                  </div>
+                </div>	<div class="col-md-2 col-sm-4 portfolio-item">
+                  
+		  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <em>Predictive analytics, optimization</em>
+                      </div>
+                    </div>
+                    <img src="img/about/1.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Press and media</strong></em>
+                  </div>
+                </div>	<div class="col-md-2 col-sm-4 portfolio-item">
+                  
+		  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <em>Predictive analytics, optimization</em>
+                      </div>
+                    </div>
+                    <img src="img/about/1.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <em><strong>Energy</strong></em>
+                  </div>
+                </div>	
+		
+              </div>
+    </section>
+    
+    
+    
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Technologies</h2>
+            <h3 class="section-subheading text-muted">A few examples of innovative solutions straight from our data lab</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-sm-4 portfolio-item">
+            <!--<a href="http://www.mediamath.com/news/press-release-mediamath-acquires-tactads-to-enable-cookieless-cross-device-targeting-and-measurement/" target="_blank" class="portfolio-link" data-toggle="modal">-->
+	    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <em>Individual targetting algorithm</em>
+                            </div>
+                        </div>
+                        <img src="img/about/1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <em><strong>Cross-device tracking</strong></em>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/about/2.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Sales effectiveness</h4>
+                        <p class="text-muted">Sales success algorithm</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/about/3.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Art market prediction</h4>
+                        <p class="text-muted">Financial algorithm</p>
+                    </div>
+                </div>
+           
+	      <div class="col-md-2 col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/about/4.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Sports prediction</h4>
+                        <p class="text-muted">Predictive algorithm, recommendation</p>
+                    </div>
+                </div>
+	    </div>
+	    
+        </div>
+    </section>
+
+
+ 
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4  text-left">
+        <span class="copyright">Copyright &copy; Jalgos SAS 2013-2015</br>Jalgos SAS </br>34 rue George Sand </br>75016 Paris, France</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li><a href="https://twitter.com/JalgosTeam" target="_blank"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li><a href="https://www.linkedin.com/company/jalgos" target="_blank"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 text-center">
+         <span class="copyright">Contact: data @ jalgos.com</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+    
+
+</html>
