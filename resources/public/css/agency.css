@@ -44,7 +44,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #00205F;
+    color: #030C57;
 }
 
 h1,
@@ -89,9 +89,9 @@ h4 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #00205F;
+    border-color: #030C57;
     color: #fff;
-    background-color: #00205F;
+    background-color: #030C57;
 }
 
 .btn-primary:active,
@@ -141,9 +141,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #00205F;
+    border-color: #030C57;
     color: #fff;
-    background-color: #00205F;
+    background-color: #030C57;
 }
 
 .btn-xl:active,
@@ -192,7 +192,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #00205F;
+    color: #030C57;
 }
 
 .navbar-default .navbar-collapse {
@@ -236,7 +236,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #00205F;
+    color: #030C57;
     background-color: #fff;
 }
 
@@ -276,7 +276,7 @@ header {
     color: #fff;
     background-attachment: scroll;
    /* background-image: url(../img/header-bg.jpg);*/
-    background-color: #00205F;
+    background-color: #030C57;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
