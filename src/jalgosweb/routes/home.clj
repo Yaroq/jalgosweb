@@ -19,6 +19,9 @@
   (layout/render
     "contact.html"))
 
+(defn references-page []
+  (layout/render
+    "references.html"))
 
 
 (defn fr-page []
@@ -36,15 +39,21 @@
   (layout/render
     "contact_fr.html"))
 
+(defn fr-references-page []
+  (layout/render
+    "references_fr.html"))
+
 
 (defroutes home-routes
   (GET "/" [] (home-page))
   (GET "/about" [] (about-page))
   (GET "/usecases" [] (usecases-page))  
   (GET "/contact" [] (contact-page))
+  (GET "/references" [] (references-page))
 
   (GET "/fr" [] (fr-page))
   (GET "/about-fr" [] (fr-about-page))
   (GET "/usecases-fr" [] (fr-usecases-page))  
   (GET "/contact-fr" [] (fr-contact-page))
+  (GET "/references-fr" [] (fr-references-page))
 )
