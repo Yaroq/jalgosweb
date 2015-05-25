@@ -1,7 +1,8 @@
 (ns jalgosweb.routes.home
   (:require [compojure.core :refer :all]
             [jalgosweb.layout :as layout]
-            [jalgosweb.util :as util]))
+            [jalgosweb.util :as util]
+            [jalgosweb.db.core :as db]))
 
 (defn home-page []
   (layout/render
@@ -26,6 +27,8 @@
 (defn career-page []
   (layout/render
     "career.html"))
+
+
 
 
 
@@ -61,6 +64,7 @@
   (GET "/contact" [] (contact-page))
   (GET "/references" [] (references-page))
   (GET "/career" [] (career-page))
+  (GET "/viz" [] (db/articles))
 
   (GET "/fr" [] (fr-page))
   (GET "/about-fr" [] (fr-about-page))
