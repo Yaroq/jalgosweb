@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jalgos, Data Science</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"></a>
+            </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                  <li>
+                    <a href="/fr"><img src="img/jalgosteenlight.jpg"></a>
+		  </li>
+                </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+		    <li>
+                        <a href="/fr">Home</a>
+                    </li>
+		    <li>
+                        <a href="/usecases-fr">Use cases</a>
+                    </li>
+		    <li>
+                        <a href="/references-fr">References</a>
+                    </li>
+                    <li>
+                        <a href="/about-fr">Nous</a>
+                    </li>
+                    <li>
+                        <a href="/career-fr">Carrières</a>
+                    </li>
+		    <li>
+                        <a href="/contact-fr">Contact</a>
+                    </li>
+                    <li>
+                        <a href="/career-fr"><img src="img/fr.jpg"></a>
+		    </li>
+		    <li>
+			<a href="/career"><img src="img/en.jpg"></a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+	      <div><img src="img/jalgos_white.png"></div>
+	      <div></br></br></div>
+                <div class="intro-heading">Data Science Agency</div>
+                <div class="intro-lead-in">Consulting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transformation</div>
+               <!--<a href="#DNA" class="page-scroll"><button type="submit" class="btn btn-x1">Learn More</button></a>
+		<!--<div class="intro-lead-in" style="font-style: normal">To contact us: julien @ jalgos.com</div>-->
+            </div>
+	<span class="fa-stack fa-2x">
+         <a class="page-scroll" href="#intro"> <i class="fa fa-chevron-down fa-stack-1x fa-inverse"></i></a>
+        </span>
+        </div>
+    </header>
+
+ <!-- Intro -->
+ <div class="container" id="intro">
+   <div></br></br></br></br></br></br></div>
+   <div class="row">
+     <div class="col-md-1"></div>
+     <div class="col-md-10 text-center">
+       <h4><strong>Nous recrutons</strong><h4>
+           <h4 class="text-left"></br>
+Passionné(e) par la data science et captivé(e) par l'innovation en général, rejoignez Jalgos et participez à des missions de haut niveau entouré(e) par les meilleurs experts data. Parmi les premiers employés d'une entreprise en forte croissance, une progression très rapide est à attendre en fonction de vos performances.
+	   </h4>
+
+	   <h4><strong>Pour postuler</strong><h4>
+           <h4 class="text-left"></br>
+	     Envoyez votre candidature directement à <strong>data@jalgos.com</strong>, avec un CV et une lettre de motivation. Précisez vos disponibilités, le poste auquel vous souhaitez postuler (l'un des postes ci-dessous ou candidature spontanée) et tout éléments que vous voudriez apporter à notre attention.</br>
+	     Après avoir étudié votre candidature, nous vous contacterons pour un éventuel premier entretien vidéo, puis une interview technique et un entretien final de personnalité/motivation.
+	   </h4>
+     </div>
+
+
+     <div class="col-md-1"></div>
+   </div>
+   <div></br></br></br></br></br></br></div>
+   <div class="row">
+     <div class="col-lg-12 text-center">
+       <span class="fa-stack fa-2x">
+	 <a class="page-scroll" href="#apply"> <i class="fa fa-chevron-down fa-stack-1x"></i></a>
+       </span>
+     </div>
+   </div>
+ </div>
+
+<!-- Use cases Section -->
+ <section id="apply">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-12 text-center">
+         <h2 class="section-heading">Postes</h2>
+	 </br></br> </br></br>
+       </div>
+     </div>
+   </div>
+
+   <div class="container">     
+     <div class="row text-center" "portfolio-item">
+       <div class="col-md-1"></div>
+       <div class="col-md-10 panel panel-default">
+	 <h3 class="service-heading">Data Scientist Stagiaire</h3>
+       </div>
+       <div class="col-md-1"></div>
+     </div>
+     <div class="row text-center" "portfolio-item">
+       <div class="col-md-1"></div>
+       <div class="col-md-5">
+	 <div class="text-muted text-left">
+	   Encadré par des data scientists séniors, le stagiaire mènera à bien des missions d'analyse et de R&D en data science sur des problématiques concrètes. Depuis l'analyse exploratoire de bases de données au design d'algorithme, toutes les facettes d'une mission de data science seront couvertes.</br></br>
+	   
+	 </div>
+	 <div class="text-muted text-left">
+	   <strong><u>Formation souhaitée:</u></strong></br></br>
+	   Bac+4/5 en grande école, spécialisation en mathématiques appliquées, statistiques, physique, informatique, économie, bio-statistiques et autres disciplines impliquant l'analyse de données et la modélisation. Une première expérience ou réalisation est un plus.
+	   
+	 </div></br></br>
+	  <div class="text-muted text-left">
+           <strong><u>Conditions</u></strong>:
+	   <ul>
+	     <li>1000€ par mois</li>
+	     <li>Stage conventionné de fin d'études (6 mois)</li>
+	     <li>Stage conventionné de recherche en cours d'études (3 mois)</li>
+	   </ul>
+	 </div>
+       </div>
+       <div class="col-md-5">
+	 <div class="text-muted text-left">
+	  <strong> <u>Compétences requises:</u></strong></br></br>
+	   <ul>
+	     <li>Expérience en UX design et interfaces homme-machine</li>
+	     <li>Maîtrise des outils de graphic design et de librairies de data viz</li>
+	     <li>Capacité à gérer les données et à interagir avec des bases de données.</li>
+	   </ul>
+	 </div>
+	 <div class="text-muted text-left">
+	   <strong><u>Qualités attendues:</u></strong></br></br>
+	   <ul>
+	     <li>Autonomie et créativité</li>
+	     <li>Capacité de synthèse et capacité à communiquer</li>
+	     <li>Motivation et capacité de travail</li>
+	   </ul>
+	 </div>
+	 
+	
+       </div>
+       <div class="col-md-1"></div>
+       
+     </div>
+   </div>
+
+
+<div></br></br></br></div>
+
+
+  <div class="container">     
+     <div class="row text-center" "portfolio-item">
+       <div class="col-md-1"></div>
+       <div class="col-md-10 panel panel-default">
+	 <h3 class="service-heading">Data Engineer Stagiaire</h3>
+       </div>
+       <div class="col-md-1"></div>
+     </div>
+     <div class="row text-center" "portfolio-item">
+       <div class="col-md-1"></div>
+       <div class="col-md-5">
+	 <div class="text-muted text-left">
+	   Encadré par des data scientists séniors, le stagiaire mènera à bien des missions de design d'architectures data et d'implémentation de solutions utilisant les dernières technologies (Spark, Storm, Hadoop, MongoDB, etc.).</br></br>
+	   
+	 </div>
+	 <div class="text-muted text-left">
+	   <strong><u>Formation souhaitée:</u></strong></br></br>
+	   Bac+4/5 en informatique/computer science. Des expériences en programmation et développement de solutions de gestion de données sont attendues.
+	   
+	 </div></br></br>
+	  <div class="text-muted text-left">
+           <strong><u>Conditions</u></strong>:
+	   <ul>
+	     <li>Rémunération selon profils</li>
+	     <li>Stage conventionné de fin d'études (6 mois)</li>
+	     <li>Stage conventionné en cours d'études (~3 mois)</li>
+	   </ul>
+	 </div>
+       </div>
+       <div class="col-md-5">
+	 <div class="text-muted text-left">
+	  <strong> <u>Compétences requises:</u></strong></br></br>
+	   <ul>
+	     <li>Excellente maîtrise en programmation (quelques langages parmi Python, Java, Scala, C, C++, C#, Clojure, etc.)</li>
+	     <li>Solide maîtrise en SQL et techonologies NoSQL (MongoDB, HBase, etc)</li>
+	     <li>Première expérience avec une technologie Big Data (Spark, Storm, Hadoop, etc.) et les problématiques d'optimisation de performance</li>
+	   </ul>
+	 </div>
+	 <div class="text-muted text-left">
+	   <strong><u>Qualités attendues:</u></strong></br></br>
+	   <ul>
+	     <li>Autonomie et créativité</li>
+	     <li>Capacité de synthèse et capacité à communiquer</li>
+	     <li>Motivation et capacité de travail</li>
+	   </ul>
+	 </div>
+	 
+	
+       </div>
+       <div class="col-md-1"></div>
+       
+     </div>
+   </div>
+
+
+<div></br></br></br></div>
+
+  <div class="container">     
+     <div class="row text-center" "portfolio-item">
+       <div class="col-md-1"></div>
+       <div class="col-md-10 panel panel-default">
+	 <h3 class="service-heading">Data Scientist Junior</h3>
+       </div>
+       <div class="col-md-1"></div>
+     </div>
+     <div class="row text-center" "portfolio-item">
+       <div class="col-md-1"></div>
+       <div class="col-md-5">
+	 <div class="text-muted text-left">
+	   Accompagnant activement les data scientists séniors, le data scientist junior mènera à bien des missions d'analyse et de R&D en data science sur des problématiques concrètes. Depuis l'analyse exploratoire de bases de données au design d'algorithme, toutes les facettes d'une mission de data science seront couvertes.</br></br>
+	   
+	 </div>
+	 <div class="text-muted text-left">
+	   <strong><u>Formation souhaitée:</u></strong></br></br>
+	   Bac+4/5 en grande école, spécialisation en mathématiques appliquées, statistiques, physique, informatique, économie, bio-informatique et autres disciplines impliquant l'analyse de données et la modélisation. Une première expérience ou réalisation est exigée.
+	   
+	 </div></br></br>
+	  <div class="text-muted text-left">
+           <strong><u>Conditions</u></strong>:
+	   <ul>
+	     <li>Rémunération selon profil</li>
+	     <li>CDI</li>
+	   </ul>
+	 </div>
+       </div>
+       <div class="col-md-5">
+	 <div class="text-muted text-left">
+	  <strong> <u>Compétences requises:</u></strong></br></br>
+	   <ul>
+	     <li>Excellente maîtrise en statistiques et méthodes quantitatives</li>
+	     <li>Capacité de modélisation, compréhension intuitive des modèles</li>
+	     <li>Aisance en programmation R ou équivalent (Julia, Matlab, etc.), expérience en programmation de langages de scripts ou compilés (Python, Perl, JS, C++, Java, C#, etc.).</li>
+	     <li>Aisance avec les algorithmes de machine learning et les technologies de parallélisation</li>
+	   </ul>
+	 </div>
+	 <div class="text-muted text-left">
+	   <strong><u>Qualités attendues:</u></strong></br></br>
+	   <ul>
+	     <li>Autonomie et créativité</li>
+	     <li>Capacité de synthèse et capacité à communiquer</li>
+	     <li>Motivation et capacité de travail</li>
+	   </ul>
+	 </div>
+	 
+	
+       </div>
+       <div class="col-md-1"></div>
+       
+     </div>
+   </div>
+
+
+<div></br></br></br></div>
+
+  <div class="container">     
+     <div class="row text-center" "portfolio-item">
+       <div class="col-md-1"></div>
+       <div class="col-md-10 panel panel-default">
+	 <h3 class="service-heading">Expert en data viz</h3>
+       </div>
+       <div class="col-md-1"></div>
+     </div>
+     <div class="row text-center" "portfolio-item">
+       <div class="col-md-1"></div>
+       <div class="col-md-5">
+	 <div class="text-muted text-left">
+	   Possédant à la fois des compétence de designer (interface homme-machine, UX, graphic design) et une aisance à manipuler les données, vous serez en charge du développement d'interfaces et avec l'aide de data engineer, de la mise en place de solutions de reportings de data.</br>
+	   Une expérience solide en UX design et en data viz est attendue. Une familiarité avec les technologies web (HTML5, CSS, JS), l'interaction avec des API (en particulier Maps), les outils et librairie de data viz (D3, Raphael, etc.) et outils graphiques (Photoshop, Gimp, etc.) est exigée.
+	 </div></br></br>
+	 <div class="text-muted text-left">
+	   <strong><u>Formation souhaitée:</u></strong></br></br>
+	   Bac+4/5 et/ou forte expérience (portfolio et/ou github)
+	   
+	 </div></br></br>
+	  <div class="text-muted text-left">
+           <strong><u>Conditions</u></strong>:
+	   <ul>
+	     <li>Rémunération selon profil</li>
+	     <li>CDI</li>
+	   </ul>
+	 </div>
+       </div>
+       <div class="col-md-5">
+	 <div class="text-muted text-left">
+	  <strong> <u>Compétences requises:</u></strong></br></br>
+	   <ul>
+	     <li>Excellente maîtrise en statistiques et méthodes quantitatives</li>
+	     <li>Capacité de modélisation, compréhension intuitive des modèles</li>
+	     <li>Aisance en programmation R ou équivalent (Julia, Matlab, etc.), expérience en programmation de langages de scripts ou compilés (Python, Perl, JS, C++, Java, C#, etc.).</li>
+	     <li>Aisance avec les algorithmes de machine learning et les technologies de parallélisation</li>
+	   </ul>
+	 </div>
+	 <div class="text-muted text-left">
+	   <strong><u>Qualités attendues:</u></strong></br></br>
+	   <ul>
+	     <li>Autonomie et créativité</li>
+	     <li>Capacité de synthèse et capacité à communiquer</li>
+	     <li>Motivation et capacité de travail</li>
+	   </ul>
+	 </div>
+	 
+	
+       </div>
+       <div class="col-md-1"></div>
+       
+     </div>
+   </div>
+
+
+<div></br></br></br></div>
+
+
+ </section>
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4  text-left">
+        <span class="copyright">Copyright &copy; Jalgos SAS 2013-2015</br>Jalgos SAS </br>34 rue George Sand </br>75016 Paris, France</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li><a href="https://twitter.com/JalgosTeam" target="_blank"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li><a href="https://www.linkedin.com/company/jalgos" target="_blank"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 text-center">
+         <span class="copyright">Contact: data @ jalgos.com</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+    
+
+</html>
+

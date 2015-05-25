@@ -23,6 +23,11 @@
   (layout/render
     "references.html"))
 
+(defn career-page []
+  (layout/render
+    "career.html"))
+
+
 
 (defn fr-page []
   (layout/render "home_fr.html"))
@@ -43,6 +48,11 @@
   (layout/render
     "references_fr.html"))
 
+(defn fr-career-page []
+  (layout/render
+    "career_fr.html"))
+
+
 
 (defroutes home-routes
   (GET "/" [] (home-page))
@@ -50,10 +60,12 @@
   (GET "/usecases" [] (usecases-page))  
   (GET "/contact" [] (contact-page))
   (GET "/references" [] (references-page))
+  (GET "/career" [] (career-page))
 
   (GET "/fr" [] (fr-page))
   (GET "/about-fr" [] (fr-about-page))
   (GET "/usecases-fr" [] (fr-usecases-page))  
   (GET "/contact-fr" [] (fr-contact-page))
   (GET "/references-fr" [] (fr-references-page))
+  (GET "/career-fr" [] (fr-career-page))
 )
