@@ -34,7 +34,8 @@
   [[lein-ring "0.9.0"]
    [lein-environ "1.0.0"]
    [lein-ancient "0.5.5"]
-   [lein-cucumber "1.0.2"]]
+   [lein-cucumber "1.0.2"]
+   [lein-cljsbuild "1.0.6"]]
   :ring
   {:handler jalgosweb.handler/app,
    :init jalgosweb.handler/init,
@@ -62,4 +63,13 @@
   jalgosweb.core
   :uberjar-name
   "jalgosweb.jar"
-  :min-lein-version "2.0.0")
+  :min-lein-version "2.0.0"
+  :cljsbuild {:crossovers [web-viz.x-over],
+              :builds
+              [{:source-paths ["src-cljs"],
+                :crossover-path "xover-cljs",
+                :compiler
+                {:pretty-print true,
+                 :output-to "resources/js/script.js",
+                 :optimizations :whitespace}}]}
+  )
