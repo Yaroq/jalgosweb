@@ -5,17 +5,22 @@
               [monger.conversion :refer [from-db-object]]))
 
 
-(defonce db 
+(defonce db
+  (let [conn (mg/connect)
+        db (mg/get-db conn "ufc")]
+        db))
+
+(comment (defonce db 
   (let [conn (mg/connect)
         db   (mg/get-db conn "news")
         u    "moustik"
         p    (.toCharArray "jaimelenlp101")]
     (mg/authenticate db u p)
-    db))
+    db)))
 
   
 (defn articles []
- (pr-str (mc/find-maps db "lemonde")))
+ (mc/find-maps db "fights"))
 
 (defn create-user [user]
   (mc/insert db "users" user))

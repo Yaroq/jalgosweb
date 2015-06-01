@@ -28,6 +28,13 @@
   (layout/render
     "career.html"))
 
+(defn viz-page []
+  (layout/render
+   "viz.html"))
+
+(defn data []
+  (db/articles))
+
 
 
 
@@ -64,7 +71,8 @@
   (GET "/contact" [] (contact-page))
   (GET "/references" [] (references-page))
   (GET "/career" [] (career-page))
-  (GET "/viz" [] (db/articles))
+  (GET "/viz" [] (viz-page))
+  (GET "/data" [] (data))
 
   (GET "/fr" [] (fr-page))
   (GET "/about-fr" [] (fr-about-page))
