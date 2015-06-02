@@ -5,22 +5,22 @@
               [monger.conversion :refer [from-db-object]]))
 
 
-(defonce db
+(comment (defonce db
   (let [conn (mg/connect)
         db (mg/get-db conn "ufc")]
-        db))
+        db)))
 
-(comment (defonce db 
+(defonce db 
   (let [conn (mg/connect)
         db   (mg/get-db conn "news")
         u    "moustik"
         p    (.toCharArray "jaimelenlp101")]
     (mg/authenticate db u p)
-    db)))
+    db))
 
   
 (defn articles []
- (mc/find-maps db "fights"))
+ (mc/find-maps db "lemonde" {} ["_id" "time_published" "year" "month" "day" "header" "section" "nb_reactions"]))
 
 (defn create-user [user]
   (mc/insert db "users" user))
