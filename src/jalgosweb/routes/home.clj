@@ -64,7 +64,6 @@
   (GET "/contact" [] (contact-page))
   (GET "/references" [] (references-page))
   (GET "/career" [] (career-page))
-  (GET "/viz" [] (db/articles))
 
   (GET "/fr" [] (fr-page))
   (GET "/about-fr" [] (fr-about-page))
