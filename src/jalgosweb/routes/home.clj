@@ -33,27 +33,27 @@
 
 
 (defn fr-page []
-  (layout/render "home_fr.html"))
+  (layout/render "fr/home_fr.html"))
 
 (defn fr-about-page []
   (layout/render
-    "about_fr.html"))
+    "fr/about_fr.html"))
 
 (defn fr-usecases-page []
   (layout/render
-    "usecases_fr.html"))
+    "fr/usecases_fr.html"))
 
 (defn fr-contact-page []
   (layout/render
-    "contact_fr.html"))
+    "fr/contact_fr.html"))
 
 (defn fr-references-page []
   (layout/render
-    "references_fr.html"))
+    "fr/references_fr.html"))
 
 (defn fr-career-page []
   (layout/render
-    "career_fr.html"))
+    "fr/career_fr.html"))
 
 
 
@@ -70,5 +70,4 @@
   (GET "/usecases-fr" [] (fr-usecases-page))  
   (GET "/contact-fr" [] (fr-contact-page))
   (GET "/references-fr" [] (fr-references-page))
-  (GET "/career-fr" [] (fr-career-page))
-)
+  (GET "/career-fr" [] (fr-career-page)))
